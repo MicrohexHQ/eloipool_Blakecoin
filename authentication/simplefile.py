@@ -63,5 +63,3 @@ class simplefile(threading.Thread):
                 if self.userdb[user] == password:
                         return True
                 return False
-
-
